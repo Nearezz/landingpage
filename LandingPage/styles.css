@@ -1,0 +1,88 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container1{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+    gap:50px
+}
+
+.logo{
+
+    padding-top: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    gap:300px
+    
+}
+
+.logolinks{
+    display: flex;
+    gap: 16px;
+}
+
+.logotext{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.linktext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.infocontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2.5%;
+    gap:300px
+}
+
+.webinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.webtitle{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7e8;
+    opacity: 0.9;
+}
+
+.signupcon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.signup{
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-flex;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
