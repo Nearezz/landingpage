@@ -3,6 +3,7 @@ html,body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    gap: 30px;
     
 }
 
@@ -85,4 +86,66 @@ html,body {
     justify-content: center;
     align-items: center;
     background-color: gray;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.BoxRows {
+    display: flex;
+}
+
+.SecHeader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    
+}
+
+
+.box {
+    border: #3882F6;
+    border-style: solid;
+    border-width: thick;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+   
+   
+}
+
+.txt{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 155%;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#E5E7EB ;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.author{
+    align-self: flex-end;
+
 }
