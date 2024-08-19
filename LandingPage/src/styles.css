@@ -111,6 +111,7 @@ html,body {
     border: #3882F6;
     border-style: solid;
     border-width: thick;
+    border-radius: 20px;
     height: 50px;
     width: 50px;
     padding: 20px;
@@ -143,9 +144,74 @@ html,body {
 .quote{
     color: #1F2937;
     font-size: 36px;
+    font-style: italic;
 }
 
 .author{
     align-self: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bolder;
 
 }
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenframe {
+    background-color: #3882F6;
+    display: flex;
+    padding: 5%;
+    border-radius: 10px;
+
+}
+
+.frame1{
+    display: flex;
+    flex-flow: column;
+    gap: 2px;
+    margin-right: 4%;
+}
+
+.product{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.prodtext{
+    color: #E5E7EB;
+    font-size: 18px;
+    opacity: 0.95;
+}
+
+.frame2 {
+    align-self: center;
+    white-space: nowrap;
+    color: #E5E7E8;
+    opacity: 1;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 20px;
+    color: #E5E7E8;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+    
+}
+
+
